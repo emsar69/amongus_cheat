@@ -1,0 +1,2 @@
+build:
+	i686-w64-mingw32-g++ -m32 -shared -std=c++2a -o Cheat.dll src/*.cpp -static-libgcc -static-libstdc++ -Wall -O2 -Llibs -Iinclude -lMinHook -limgui -lgdi32 -ldwmapi -ld3dcompiler -ld3d11 -luser32
